@@ -17,6 +17,7 @@ public class parte01 {
             List<Integer> direita = new ArrayList<>();
             List<Integer> soma = new ArrayList<>();
 
+
                 Scanner reader = new Scanner(new FileReader(dadosInput));
                 while (reader.hasNext()) {
                     int esquerdaNumero =  reader.nextInt();
